@@ -1,0 +1,26 @@
+{
+  "name": "connect-it",
+  "version": "1.0.0",
+  "description": "It an app that sync's clipboard across connected devices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iammohan01/connect-it.git"
+  },
+  "author": "Mohan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iammohan01/connect-it/issues"
+  },
+  "homepage": "https://github.com/iammohan01/connect-it#readme",
+  "dependencies": {
+    "clipboard-listener": "^0.2.3",
+    "express": "^4.18.2",
+    "path": "^0.12.7",
+    "serve-handler": "^6.1.5",
+    "ws": "^8.13.0"
+  }
+}
